@@ -1,0 +1,47 @@
+SGSE - Ingeniería Planta - PROTOTIPO PARA VISUAL STUDIO CODE
+=====================================================================
+
+1. EXTRAER
+   Extrae este ZIP en una carpeta (por ejemplo: Documentos\SGSE).
+   No abras el archivo index.html directamente desde dentro del ZIP.
+
+2. ABRIR EN VISUAL STUDIO CODE
+   En VS Code: Archivo > Abrir carpeta > selecciona SGSE_Proyecto_VSCode.
+   En el explorador izquierdo deben verse index.html, css, js y assets.
+
+3. EJECUTAR SIN INSTALAR NADA
+   En el Explorador de archivos de Windows, haz doble clic en index.html.
+   Elige Microsoft Edge si Windows pregunta con qué abrirlo.
+   No es necesario usar una IP, terminal ni extensión Live Server.
+
+4. PRIMERA PRUEBA
+   - Haz clic en «Cargar ejemplo ficticio».
+   - En «Mis servicios», abre «Editar» o «PDF».
+   - Revisa la definición del servicio (a-g) y la recepción (h-l).
+   - Abre «Documentos / PDF» > «Imprimir / Guardar PDF».
+   - En el diálogo del navegador selecciona «Microsoft Print to PDF» o
+     «Guardar como PDF»; configura A4 y sin encabezados/pies si procede.
+   - Prueba «Preparar correo»: abre el cliente de correo, pero NO adjunta el PDF.
+
+5. APRENDER A MODIFICAR EL PROYECTO
+   index.html          -> Estructura y campos visibles.
+   css/estilos.css     -> Colores, espaciados, diseño y aspecto al imprimir.
+   js/app.js           -> Guardado, navegación, validaciones y PDF.
+   assets/logo.png     -> Logotipo ilustrativo derivado del documento proporcionado.
+
+6. DATOS Y LIMITACIONES
+   - Los registros se guardan en localStorage de ESE navegador/equipo.
+   - No es multiusuario. No es un servidor y no responde a una IP.
+   - La información puede desaparecer si se limpian los datos del navegador.
+   - El respaldo JSON es manual y sólo para PRUEBAS con datos ficticios.
+   - El PDF es una representación HTML de GESMAN-REG12, no el Word oficial
+     cumplimentado y NO ES UN DOCUMENTO CORPORATIVO APROBADO.
+   - No incorpora firmas autorizadas, calificación externa de proveedores,
+     cotización/negociación, correo con adjunto automático ni SAP.
+   - No usar para servicios reales hasta evaluación de TI, seguridad y calidad.
+
+7. PARA CONTINUAR CON CHATGPT
+   Confirma: «Abrí SGSE en VS Code, cargué el ejemplo y generé el PDF».
+   El siguiente paso será ajustar pantalla de Definición y fidelidad visual
+   del PDF a la plantilla oficial antes de permitir un uso real.
+
